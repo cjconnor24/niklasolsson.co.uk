@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-weight: normal;
+}
+h1 strong {
+    cursor: pointer;
+    border-bottom:3px solid #CCC;
+    font-weight:700;
+    padding:0 0 3px 0;
+    display: inline-block;
+    transition:0.5s;
+}
+h1 strong:hover {
+    transform: scale(1.2) translateX(10px) rotate(-2deg);
+    background:rgba(255,255,255,0.85);
+}
+p.description {
+    margin:50px 0;
+}
+.container {
+    max-width:1024px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.links {
+    margin:0 auto;
+    padding:0;
+}
+.links li {
+    list-style:none;
+    display: inline-block;
+    margin:30px;
+}
+.links li a {
+    text-decoration: none;
+    color:#666666;
+    display: inline-block;
+    transition:0.25s;
+    padding:2em;
+    border-radius: 10px;
+}
+.links li a:hover {
+    color:#FFF;
+    background: #000;
+}
+
+.links .fab {
+    font-size:80px;
+    margin:0 0 20px 0;
+    display: block;
+}
+.pic {
+    width: 150px;
+    height: 150px;
+    margin:50px auto;
+    border-radius:50%;
+    overflow: hidden;
+    box-shadow:0 0 10px #CCC;
+    transition:0.25s;
+}
+.pic:hover {
+    transform:scale(1.2);
+}
+.pic img {
+    width:100%;
+}
