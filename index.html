@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Niklas Olsson - Web Developer / Software Developer / Glasgow, Scotland</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+        *,
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Comfortaa, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+        h1 {
+            font-weight: normal;
+        }
+        h1 strong {
+            cursor: pointer;
+            border-bottom:3px solid #CCC;
+            font-weight:700;
+            padding:0 0 3px 0;
+            display: inline-block;
+            transition:0.5s;
+        }
+        h1 strong:hover {
+            transform: scale(1.2) translateX(10px) rotate(-2deg);
+            background:rgba(255,255,255,0.85);
+        }
+        p.description {
+            margin:50px 0;
+        }
+        /* .flex-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+        .container {
+            max-width:1024px;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .links {
+            margin:0 auto;
+            padding:0;
+        }
+        .links li {
+            list-style:none;
+            display: inline-block;
+            margin:30px;
+        }
+        .links li a {
+            text-decoration: none;
+            color:#666666;
+            display: inline-block;
+            transition:0.25s;
+            padding:2em;
+            border-radius: 10px;
+        }
+        .links li a:hover {
+            color:#FFF;
+            background: #000;
+        }
+        
+        .links .fab {
+            font-size:80px;
+            margin:0 0 20px 0;
+            display: block;
+        }
+        .pic {
+            width: 150px;
+            height: 150px;
+            margin:50px auto;
+            border-radius:50%;
+            overflow: hidden;
+            box-shadow:0 0 10px #CCC;
+            transition:0.25s;
+        }
+        .pic:hover {
+            transform:scale(1.2);
+        }
+        .pic img {
+            width:100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+
+    <div class="container">
+
+        <div class="pic">
+            <img src="nik-bw.jpg" alt="Profile Picture">
+        </div>
+
+        <h1>Hey, I'm <strong>Niklas Olsson</strong></h1>
+        <p class="description">I'm a recent graduate software developer currently based in Glasgow, Scotland.</p>
+
+        <ul class="links">
+                <li><a href="https://github.com/nolsson151" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/niklas-olsson94/" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
